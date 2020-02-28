@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cox-model-diagnostics | Mengna&#39;s Space</title>
+    <link>/tags/cox-model-diagnostics/</link>
+      <atom:link href="/tags/cox-model-diagnostics/index.xml" rel="self" type="application/rss+xml" />
+    <description>cox-model-diagnostics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 20 Feb 2020 16:32:49 -0600</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>cox-model-diagnostics</title>
+      <link>/tags/cox-model-diagnostics/</link>
+    </image>
+    
+    <item>
+      <title>Note12 Cox Model Diagnostics</title>
+      <link>/post/note12-cox-model-diagnostics/</link>
+      <pubDate>Thu, 20 Feb 2020 16:32:49 -0600</pubDate>
+      <guid>/post/note12-cox-model-diagnostics/</guid>
+      <description>
+
+
+&lt;div id=&#34;testing-the-proportional-hazard-assumptions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;Testing the Proportional Hazard Assumptions&lt;/span&gt;&lt;/h2&gt;
+&lt;div id=&#34;schoenfeld-residuals1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Schoenfeld Residuals&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Instead of a single residual for each individual, there is a separate residual for each individual for each covariate.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Schonefeld residuals are not defined for censored individuals.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(Schonefeld residual = x_{ik} - \sum_{i=1}^{j\in R(t_i)} x_{kj}P_j\)&lt;/span&gt;&lt;/span&gt;
+- The Schoenfeld residual is the covariate-value, &lt;span class=&#34;math inline&#34;&gt;\(x_{ik}\)&lt;/span&gt;, for the person i who actually died at time &lt;span class=&#34;math inline&#34;&gt;\(t_i\)&lt;/span&gt; minus the expected value of the covariate for the risk set at &lt;span class=&#34;math inline&#34;&gt;\(t_i\)&lt;/span&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Plot Schoenfeld residuals against time to evaluate PH assumption.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If the slope is not zero then the proportional hazard assumption has been violated.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;kaplan-meier-curves2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Kaplan-Meier Curves&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If the predictor satisfy the proportional hazard assumption then the graph of the survival function versus the survival time should results in a graph with parallel curves.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This method does not work well for continuous predictor or categorical predictors that have many levels because the graph becomes to “cluttered”.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;log-log-plot2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Log-log Plot&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The log(-log(survival)) versus log of survival time graph should result in parallel lines if the predictor is proportional.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;general-model-fit&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;General Model Fit&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Theorem:&lt;/span&gt; Suppose T is a continuous nonnegative random variable with cumulative hazard function &lt;span class=&#34;math inline&#34;&gt;\(\Lambda\)&lt;/span&gt;. Then the random variaable $ Y = (T)$ follows an exponential distribution with rate&lt;span class=&#34;math inline&#34;&gt;\(\lambda = 1\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;One way of checking the validty of a model is by comparing the model’s estimates {&lt;span class=&#34;math inline&#34;&gt;\(\hat{\Lambda}(t_i)\)&lt;/span&gt;} against the standard exponential distribution.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;cox-snell-residuals&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Cox-Snell Residuals&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{e}_i = \hat{\Lambda_0}(t_i) exp(x_i^T \hat{\beta})\)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Application: to examine the overall fit of a Cox model: by plotting the Cox-Snell residual against the cumulative hazard function.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A well fitting model will exhibit a linear line through the origin with a unit gradien.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;These residuals should behave like a sample from an exponential distribution with a mean equal to 1.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cox-Snell residuals do not account for censored observations.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;One drawback to the Cox-Snell residuals is that they don’t
+provide much insight into why the model’s assumptions are
+violated。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;martingale-residuals3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Martingale Residuals&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{m}_{i} = d_i - \hat{\Lambda}_i(t_i)\)&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Martingale residuals can be used to assess the true functional form of a particular covariate (Thernau et al. (1990)).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Positive values mean that the patient died sooner than expected (according to the model); negative values mean that the patient lived longer than expected (or were censored).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Martingale residuals are very useful and can be used for many of the usual purposes that we use residuals for in other models (identifying outliers, choosing a functional form for the covariate, etc.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;However, the primary drawback to the martingale residual is its clear asymmetry (its upper bound is 1, but it has no lowerbound)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outliers-identification&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Outliers Identification&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Overall:&lt;/span&gt; plot deviance residual vs time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Variable Specific:&lt;/span&gt;plot dfBetas vs time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;DFBetas&lt;/span&gt; Measure of how much an observation has effected the estimate of a regression coefficient (there is one DFBETA for each regression coefficient, including the intercept). Values larger than 2/sqrt(n) in absolute value are considered highly influential.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;linearity-visual&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Linearity Visual&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;plot deviance residual vs continuous variable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;predictive-power&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Predictive Power&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Harrell’s C-index (concordance index)&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;The intuition behind Harrell’s C-index is as follows. For patient i, our risk model assigns a risk score &lt;span class=&#34;math inline&#34;&gt;\(\eta_i\)&lt;/span&gt; . If our risk model is any good, patients who had shorter times-to-disease should have higher risk scores. Boiling this intuition down to two patients: the patient with the higher risk score should have a shorter time-to-disease.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;We can compute the C-index in the following way: For every pair of patients i and j (with i &lt;span class=&#34;math inline&#34;&gt;\(\neq\)&lt;/span&gt; j), look at their risk scores and times-to-event.&lt;/p&gt;
+&lt;div id=&#34;both-i-and-j-are-not-censored&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;span style=&#34;color:pink&#34;&gt;Both i and j are not censored&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(T_j\)&lt;/span&gt; &amp;lt; &lt;span class=&#34;math inline&#34;&gt;\(T_i\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\eta_j &amp;lt; \eta_i\)&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:orange&#34;&gt;discordant pair&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(T_j\)&lt;/span&gt; &amp;lt; &lt;span class=&#34;math inline&#34;&gt;\(T_i\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\eta_j &amp;gt; \eta_i\)&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:orange&#34;&gt;concordant pair&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;discordant pair:&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;both-i-and-j-are-censored&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;span style=&#34;color:pink&#34;&gt;Both i and j are censored&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;We don’t consider this pair in this situation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;i-is-censored-and-j-is-not-censored&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;span style=&#34;color:pink&#34;&gt;i is censored and j is not censored&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(T_j\)&lt;/span&gt; &amp;lt; &lt;span class=&#34;math inline&#34;&gt;\(T_i\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\eta_i &amp;gt; \eta_j\)&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:orange&#34;&gt;discordant pair&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(T_j\)&lt;/span&gt; &amp;lt; &lt;span class=&#34;math inline&#34;&gt;\(T_i\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\eta_i &amp;lt; \eta_j\)&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:orange&#34;&gt;concordant pair&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(T_j\)&lt;/span&gt; &amp;gt; &lt;span class=&#34;math inline&#34;&gt;\(T_i\)&lt;/span&gt; then we don’t know who got disease first, we don’t consider this pair in this situation.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;c = #concordant_pairs / #concordant_pairs + #discordant_pairs&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Values of c near 0.5 indicate that the risk score predictions are no better than a coin flip in determining which patient will live longer.&lt;/p&gt;
+&lt;p&gt;Values near 1 indicate that the risk scores are good at determining which of two patients will have the disease first.&lt;/p&gt;
+&lt;p&gt;Values near 0 means that the risk scores are worse than a coin flip: you might be better off concluding the opposite of what the risk scores tell you.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://slideplayer.com/slide/14000214/&#34; class=&#34;uri&#34;&gt;https://slideplayer.com/slide/14000214/&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://stats.idre.ucla.edu/other/examples/asa2/testing-the-proportional-hazard-assumption-in-cox-models/&#34; class=&#34;uri&#34;&gt;https://stats.idre.ucla.edu/other/examples/asa2/testing-the-proportional-hazard-assumption-in-cox-models/&lt;/a&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://stats.idre.ucla.edu/other/examples/asa2/testing-the-proportional-hazard-assumption-in-cox-models/&#34; class=&#34;uri&#34;&gt;https://stats.idre.ucla.edu/other/examples/asa2/testing-the-proportional-hazard-assumption-in-cox-models/&lt;/a&gt;&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://myweb.uiowa.edu/pbreheny/7210/f15/notes/11-10.pdf&#34; class=&#34;uri&#34;&gt;https://myweb.uiowa.edu/pbreheny/7210/f15/notes/11-10.pdf&lt;/a&gt;&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://statisticaloddsandends.wordpress.com/2019/10/26/what-is-harrells-c-index/&#34; class=&#34;uri&#34;&gt;https://statisticaloddsandends.wordpress.com/2019/10/26/what-is-harrells-c-index/&lt;/a&gt;&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

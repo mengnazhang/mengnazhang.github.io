@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Mengna Zhang">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Question 1Suppose the genetic distance is d Morgan between two loci (i.e. average d crossovers will occur per meiosis). Infer recombination probability θ between the two loci per meiosis (i.e. the map function, θ(d)) (Score 20)
+x: number of observed crossovers
+d: genetic distance between two lociθ(d): prob of recombination between two loci per meiosis
+\(f(X = x) = \frac{e^{-d}d^x}{x!},x = 0,1,2,..\)
+\(\theta(d) = \sum_{odd x}f(X=x)\)
+\(= \sum_{oddx}\frac{e^{-d}d^x}{x!">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/bds751hw5/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/post/bds751hw5/">
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Mengna&#39;s Space">
+  <meta property="og:url" content="/post/bds751hw5/">
+  <meta property="og:title" content="Homework 5 | Mengna&#39;s Space">
+  <meta property="og:description" content="Question 1Suppose the genetic distance is d Morgan between two loci (i.e. average d crossovers will occur per meiosis). Infer recombination probability θ between the two loci per meiosis (i.e. the map function, θ(d)) (Score 20)
+x: number of observed crossovers
+d: genetic distance between two lociθ(d): prob of recombination between two loci per meiosis
+\(f(X = x) = \frac{e^{-d}d^x}{x!},x = 0,1,2,..\)
+\(\theta(d) = \sum_{odd x}f(X=x)\)
+\(= \sum_{oddx}\frac{e^{-d}d^x}{x!"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-02-23T11:55:44-06:00">
+    
+    <meta property="article:modified_time" content="2020-02-23T11:55:44-06:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/bds751hw5/"
+  },
+  "headline": "Homework 5",
+  
+  "datePublished": "2020-02-23T11:55:44-06:00",
+  "dateModified": "2020-02-23T11:55:44-06:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Mengna Zhang"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mengna's Space",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Question 1\rSuppose the genetic distance is d Morgan between two loci (i.e. average d crossovers will occur per meiosis). Infer recombination probability θ between the two loci per meiosis (i.e. the map function, θ(d)) (Score 20)\nx: number of observed crossovers\nd: genetic distance between two loci\rθ(d): prob of recombination between two loci per meiosis\n\\(f(X = x) = \\frac{e^{-d}d^x}{x!},x = 0,1,2,..\\)\n\\(\\theta(d) = \\sum_{odd x}f(X=x)\\)\n\\(= \\sum_{oddx}\\frac{e^{-d}d^x}{x!"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Homework 5 | Mengna&#39;s Space</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Mengna&#39;s Space</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Mengna&#39;s Space</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#bds722"><span>BDS722</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#bds751"><span>BDS751</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Homework 5</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Feb 23, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+
+<div id="question-1" class="section level2">
+<h2><span style="color:red">Question 1</span></h2>
+<p><span style="color:orange">Suppose the genetic distance is d Morgan between two loci (i.e. average d crossovers will occur per meiosis). Infer recombination probability θ between the two loci per meiosis (i.e. the map function, θ(d)) (Score 20)</span></p>
+<p>x: number of observed crossovers<br />
+d: genetic distance between two loci
+θ(d): prob of recombination between two loci per meiosis</p>
+<p><span class="math inline">\(f(X = x) = \frac{e^{-d}d^x}{x!},x = 0,1,2,..\)</span></p>
+<p><span class="math inline">\(\theta(d) = \sum_{odd x}f(X=x)\)</span></p>
+<p><span class="math inline">\(= \sum_{oddx}\frac{e^{-d}d^x}{x!}\)</span></p>
+<p><span class="math inline">\(= \frac{1}{2}(\sum_{oddx}\frac{e^{-d}d^x}{x!} + \sum_{oddx}\frac{e^{-d}d^x}{x!} + \sum_{evenx}\frac{e^{-d}d^x}{x!} - \sum_{evenx}\frac{e^{-d}d^x}{x!})\)</span></p>
+<p><span class="math inline">\(= \frac{e^{-d}}{2}(\sum_{oddx}\frac{d^x}{x!}+(\sum_{oddx}\frac{d^x}{x!}+\sum_{evenx}\frac{d^x}{x!})-\sum_{evenx}\frac{d^x}{x!})\)</span></p>
+<p><span class="math inline">\(= \frac{e^{-d}}{2}(-\sum_{oddx}\frac{(-d)^x}{x!} + \sum_{x=0}^\infty\frac{d^x}{x!} - \sum_{evenx}\frac{(-d)^x}{x!})\)</span></p>
+<p><span class="math inline">\(= \frac{e^{-d}}{2}(\sum_{x=0}^\infty\frac{d^x}{x!}-(\sum_{oddx}\frac{(-d)^x}{x!} + \sum_{evenx}\frac{(-d)^x}{x!}))\)</span></p>
+<p><span class="math inline">\(= \frac{e^{-d}}{2}(\sum_{x=0}^\infty\frac{d^x}{x!} - \sum_{x=0}^\infty\frac{(-d)^x}{x!})\)</span></p>
+<p>Based on Taylor Series</p>
+<p><span class="math inline">\(e^d = \sum_{x=0}^\infty\frac{d^x}{x!}, x = 0,1,2,...\)</span></p>
+<p><span class="math inline">\(e^{-d} = \sum_{x=0}^\infty\frac{(-d)^x}{x!}\)</span></p>
+<p>Hence,</p>
+<p><span class="math inline">\(\theta(d) = \frac{e^{-d}}{2}(e^d - e^{-d}) = \frac{1-e^{-2d}}{2}\)</span></p>
+</div>
+<div id="question-2" class="section level2">
+<h2><span style="color:red">Question 2</span></h2>
+<p><span style="color:orange">Suppose the recombinatin probability between two loci is θ. (Score 20)</span></p>
+<p><span style="color:orange">a. If parent genotype for the two loci is dm|Dm, what are transmitted haplotypes and their probabilities?</span><br />
+transmitted haplotypes: dm, Dm<br />
+Pr(dm) = Pr(Dm) = 0.5</p>
+<p><span style="color:orange">b. If parent genotype for the two loci is Dm|DM, what are transmitted haplotypes and their probabilities?</span><br />
+transmitted haplotypes: Dm, DM<br />
+Pr(Dm) = Pr(DM) = 0.5</p>
+<p><span style="color:orange">c. If parent genotype for the two loci is dm|DM, what are transmitted haplotypes and their probabilities?</span><br />
+transmitted haplotypes: dm, DM, dM, Dm<br />
+Pr(dm) = Pr(DM) = <span class="math inline">\(\frac{1-\theta}{2}\)</span><br />
+Pr(dM) = Pr(Dm) = <span class="math inline">\(\frac{\theta}{2}\)</span></p>
+<p><span style="color:orange">d. If parent genotype for the two loci is dM|Dm, what are transmitted haplotypes and their probabilities?</span><br />
+transmitted haplotypes: dM, Dm, dm, DM<br />
+Pr(dM) = Pr(Dm) = <span class="math inline">\(\frac{1-\theta}{2}\)</span><br />
+Pr(dm) = Pr(DM) = <span class="math inline">\(\frac{\theta}{2}\)</span></p>
+</div>
+<div id="question-3" class="section level2">
+<h2><span style="color:red">Question 3</span></h2>
+<p><span style="color:orange">Suppose a family pedigree is as follows. (Score 35)</span><br />
+<img src="q3.PNG" /></p>
+<p><span style="color:orange">a. What are recombinant haplotypes?</span><br />
+Dm</p>
+<p><span style="color:orange">b. What are non-recombinant haplotypes?</span><br />
+DM, dm</p>
+<p><span style="color:orange">c. Estimate recombination probability θ and what is the standard error?</span><br />
+<span class="math inline">\(n = 5, r = 1, s = 4\)</span></p>
+<p><span class="math inline">\(\theta = \frac{1}{5} = 0.2\)</span></p>
+<p><span class="math inline">\(se = \sqrt{\frac{rs}{n^3}} = \sqrt{\frac{4}{125}}=0.179\)</span></p>
+<p><span style="color:orange">d. We want to test if there is independent assortment between the two loci. What is the <span class="math inline">\(H_0\)</span> and <span class="math inline">\(H_1\)</span>?</span></p>
+<p><span class="math inline">\(H_0\)</span> : <span class="math inline">\(\theta = 0.5\)</span></p>
+<p><span class="math inline">\(H_1\)</span> : <span class="math inline">\(\theta \leq 0.5\)</span></p>
+<p><span style="color:orange">e. Conduct a statistical test of question d, and show your conclusion. (Hint: binomial test)</span></p>
+<pre class="r"><code>binom.test(x=1,n=5,p=0.5,alternative=c(&quot;less&quot;),conf.level=0.95)</code></pre>
+<pre><code>## 
+##  Exact binomial test
+## 
+## data:  1 and 5
+## number of successes = 1, number of trials = 5, p-value = 0.1875
+## alternative hypothesis: true probability of success is less than 0.5
+## 95 percent confidence interval:
+##  0.0000000 0.6574083
+## sample estimates:
+## probability of success 
+##                    0.2</code></pre>
+<p>The p-value for our test is 0.1875 which is greater than 0.05, so we failed to reject the null hypotheis and conclude that <span class="math inline">\(\theta = 0.5\)</span> whcih means there is independent assortment between the two loci.</p>
+<p><span style="color:orange">f. Extra Credit (Score 5): Suppose we do not know father’s genotype in the pedigree. Can we infer the father’s genotype with haplotype information and what are they?</span></p>
+<p>Yes, we can. Offspring’s genotypes contain allele D/d and allele M/m, so, father’s genotype must contain D,d,M,m.<br />
+And among offspring, there are three types of haplotypes came from father, they are DM, dm and Dm.<br />
+Hence, father’s genotype should be informative, and there are two possiable genotypes for father.<br />
+1. DM|dm 2. Dm|dM</p>
+</div>
+<div id="question-4" class="section level2">
+<h2><span style="color:red">Question 4</span></h2>
+<p><span style="color:orange">Weather report shows that snowing probability on Friday is 60%. Big data analysis indicates that the probability of UMMC cancelling class is 70% if there is snow, and the probability is 5% if there is no snow. (Score: 15)</span></p>
+<p><span style="color:orange">a. Construct the contingency table of probability (Score: 5)</span></p>
+<p><span class="math inline">\(Pr(snow) = 0.6\)</span></p>
+<p><span class="math inline">\(Pr(no-snow) = 0.4\)</span></p>
+<p><span class="math inline">\(Pr(cancel | snow) = 0.7\)</span></p>
+<p><span class="math inline">\(Pr(cancel | no-snow) = 0.05\)</span></p>
+<p><span class="math inline">\(Pr(snow, cancel) = Pr(cancel | snow)Pr(snow) = 0.7*0.6 = 0.42\)</span></p>
+<p><span class="math inline">\(Pr(snow, no-cancel) = Pr(snow) - Pr(snow, cancel) = 0.6 - 0.42 = 0.18\)</span></p>
+<p><span class="math inline">\(Pr(no-snow, cancel) = Pr(cancel | no-snow)Pr(no-snow) = 0.05*0.4 = 0.02\)</span></p>
+<p><span class="math inline">\(Pr(no-snow, no-cancel) = Pr(no-snow) - Pr(no-snow, cancel) = 0.4 - 0.02 = 0.38\)</span></p>
+<table>
+<thead>
+<tr class="header">
+<th>~~~~~</th>
+<th>cancel</th>
+<th>no-cancel</th>
+<th>~~~~~</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>snow</td>
+<td>0.42</td>
+<td>0.18</td>
+<td>0.6</td>
+</tr>
+<tr class="even">
+<td>no-snow</td>
+<td>0.02</td>
+<td>0.38</td>
+<td>0.4</td>
+</tr>
+<tr class="odd">
+<td>~~~~~</td>
+<td>0.44</td>
+<td>0.56</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p><span style="color:orange">b. What is the probability that class will be cancelled on Friday? (Score: 5)</span></p>
+<p>Pr(cancel) = Pr(cancel, snow) + Pr(cancel, no-snow) = 0.42 + 0.02 = 0.44</p>
+<p><span style="color:orange">c. What is the probability that there is snow on Friday if class is canceled? (Score: 5)</span></p>
+<p><span class="math inline">\(Pr(snow | cancel) = \frac{Pr(snow,cancel)}{Pr(cancel)} = \frac{0.42}{0.44} = 0.955\)</span></p>
+</div>
+<div id="question-5" class="section level2">
+<h2><span style="color:red">Question 5</span></h2>
+<p><span style="color:orange">A prospective study collected 100 smokers and 100 non-smokers. After 10 years, the study observed 30 smokers and 10 non-smokers got lung cancer. If our objective is that smoking is associated with cancer risk, then</span></p>
+<p><span style="color:orange">a. Write down the hypothesis and estimate the parameters for hypothesis test (Score: 10) </span></p>
+<p><span class="math inline">\(H_0\)</span> : Pr(cancer, smoker) = Pr(cancer, non-smoker)<br />
+<span class="math inline">\(H_a\)</span> : Pr(cancer, smoker) <span class="math inline">\(\neq\)</span> Pr(cancer, non-smoker)</p>
+<p><span class="math inline">\(Pr(cancer,smoker) = \frac{30}{100} = 0.3\)</span></p>
+<p><span class="math inline">\(Pr(cancer,non-smoker) = \frac{10}{100} = 0.1\)</span></p>
+<p><span style="color:orange">b. perform a statistical test, get the statistic with p-value and show your conclusion (Score: 10) </span></p>
+<table>
+<thead>
+<tr class="header">
+<th>~~~~~</th>
+<th>cancer</th>
+<th>no-cancer</th>
+<th>~~~~~</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>smoker</td>
+<td>30</td>
+<td>70</td>
+<td>100</td>
+</tr>
+<tr class="even">
+<td>non-smoker</td>
+<td>10</td>
+<td>90</td>
+<td>100</td>
+</tr>
+<tr class="odd">
+<td>~~~~~</td>
+<td>40</td>
+<td>160</td>
+<td>200</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math inline">\(\hat{p_1} = 0.3, x_1 = 30, n_1 = 100\)</span></p>
+<p><span class="math inline">\(\hat{p_2} = 0.1, x_2 = 10, n_2 = 100\)</span></p>
+<p><span class="math inline">\(\bar{p} = \frac{x_1 + x_2}{n_1 + n_2} = \frac{40}{200} = 0.2\)</span></p>
+<p><span class="math inline">\(\hat{\sigma}_{\hat{p_1} - \hat{p_2}} = \sqrt{\frac{\bar{p}(1-\bar{p})}{n_1} + \frac{\bar{p}(1-\bar{p})}{n_2}}\)</span></p>
+<p>$ = = 0.0566$</p>
+<p><span class="math inline">\(z = \frac{\hat{p_1} - \hat{p_2}}{\hat{\sigma}_{\hat{p_1} - \hat{p_2}}} = \frac{0.3-0.1}{0.0566} = 3.54\)</span></p>
+<p>The P-Value is .0004.</p>
+<p>Because our p-value is 0.0004 which is less than 0 at 0.05 alpha level, we reject the null hypothesis and conclude that smoking is associated with cancer risk.</p>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/bds751/">bds751</a>
+  
+  <a class="badge badge-light" href="/tags/bds751hw/">bds751hw</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/post/bds751hw5/&amp;text=Homework%205" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/post/bds751hw5/&amp;t=Homework%205" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Homework%205&amp;body=/post/bds751hw5/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/bds751hw5/&amp;title=Homework%205" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Homework%205%20/post/bds751hw5/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/post/bds751hw5/&amp;title=Homework%205" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huc09fd31ce9bb786d1041f70ffa59556f_1970749_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/">Mengna Zhang</a></h5>
+      <h6 class="card-subtitle">First Year Graduate Student</h6>
+      <p class="card-text">I am a first year graduate student in Data Science department of UMMC.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.4/mermaid.min.js" integrity="sha256-JEqEejGt4tR35L0a1zodzsV0/PJ6GIf7J4yDtywdrH8=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.a8d7005002cb4a052fd6d721e83df9ba.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

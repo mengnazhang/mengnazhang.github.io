@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mengna&#39;s Space</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mengna&#39;s Space</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Mengna&#39;s Space</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>Example Page 1</title>
+      <link>/courses/example/example1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example1/</guid>
+      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page 2</title>
+      <link>/courses/example/example2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example2/</guid>
+      <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>/talk/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>/talk/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Note8 Glm Diagnostics</title>
+      <link>/post/note8-glm-diagnostics/</link>
+      <pubDate>Thu, 27 Feb 2020 15:56:36 -0600</pubDate>
+      <guid>/post/note8-glm-diagnostics/</guid>
+      <description>
+
+
+&lt;div id=&#34;assessing-the-link-function&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;Assessing the Link Function&lt;/span&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outlier-detection&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;Outlier Detection&lt;/span&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cook’s distance measures the aggregate change in the estimated coefficients when each observation is left out of the estimation.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;rules-of-thumb&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Rules of thumb:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework 5</title>
+      <link>/post/bds751hw5/</link>
+      <pubDate>Sun, 23 Feb 2020 11:55:44 -0600</pubDate>
+      <guid>/post/bds751hw5/</guid>
+      <description>
+
+
+&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;Question 1&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Suppose the genetic distance is d Morgan between two loci (i.e. average d crossovers will occur per meiosis). Infer recombination probability θ between the two loci per meiosis (i.e. the map function, θ(d)) (Score 20)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;x: number of observed crossovers&lt;br /&gt;
+d: genetic distance between two loci
+θ(d): prob of recombination between two loci per meiosis&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(f(X = x) = \frac{e^{-d}d^x}{x!},x = 0,1,2,..\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\theta(d) = \sum_{odd x}f(X=x)\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(= \sum_{oddx}\frac{e^{-d}d^x}{x!}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(= \frac{1}{2}(\sum_{oddx}\frac{e^{-d}d^x}{x!} + \sum_{oddx}\frac{e^{-d}d^x}{x!} + \sum_{evenx}\frac{e^{-d}d^x}{x!} - \sum_{evenx}\frac{e^{-d}d^x}{x!})\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(= \frac{e^{-d}}{2}(\sum_{oddx}\frac{d^x}{x!}+(\sum_{oddx}\frac{d^x}{x!}+\sum_{evenx}\frac{d^x}{x!})-\sum_{evenx}\frac{d^x}{x!})\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(= \frac{e^{-d}}{2}(-\sum_{oddx}\frac{(-d)^x}{x!} + \sum_{x=0}^\infty\frac{d^x}{x!} - \sum_{evenx}\frac{(-d)^x}{x!})\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(= \frac{e^{-d}}{2}(\sum_{x=0}^\infty\frac{d^x}{x!}-(\sum_{oddx}\frac{(-d)^x}{x!} + \sum_{evenx}\frac{(-d)^x}{x!}))\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(= \frac{e^{-d}}{2}(\sum_{x=0}^\infty\frac{d^x}{x!} - \sum_{x=0}^\infty\frac{(-d)^x}{x!})\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Based on Taylor Series&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(e^d = \sum_{x=0}^\infty\frac{d^x}{x!}, x = 0,1,2,...\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(e^{-d} = \sum_{x=0}^\infty\frac{(-d)^x}{x!}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Hence,&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\theta(d) = \frac{e^{-d}}{2}(e^d - e^{-d}) = \frac{1-e^{-2d}}{2}\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;Question 2&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Suppose the recombinatin probability between two loci is θ. (Score 20)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;a. If parent genotype for the two loci is dm|Dm, what are transmitted haplotypes and their probabilities?&lt;/span&gt;&lt;br /&gt;
+transmitted haplotypes: dm, Dm&lt;br /&gt;
+Pr(dm) = Pr(Dm) = 0.5&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;b. If parent genotype for the two loci is Dm|DM, what are transmitted haplotypes and their probabilities?&lt;/span&gt;&lt;br /&gt;
+transmitted haplotypes: Dm, DM&lt;br /&gt;
+Pr(Dm) = Pr(DM) = 0.5&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;c. If parent genotype for the two loci is dm|DM, what are transmitted haplotypes and their probabilities?&lt;/span&gt;&lt;br /&gt;
+transmitted haplotypes: dm, DM, dM, Dm&lt;br /&gt;
+Pr(dm) = Pr(DM) = &lt;span class=&#34;math inline&#34;&gt;\(\frac{1-\theta}{2}\)&lt;/span&gt;&lt;br /&gt;
+Pr(dM) = Pr(Dm) = &lt;span class=&#34;math inline&#34;&gt;\(\frac{\theta}{2}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;d. If parent genotype for the two loci is dM|Dm, what are transmitted haplotypes and their probabilities?&lt;/span&gt;&lt;br /&gt;
+transmitted haplotypes: dM, Dm, dm, DM&lt;br /&gt;
+Pr(dM) = Pr(Dm) = &lt;span class=&#34;math inline&#34;&gt;\(\frac{1-\theta}{2}\)&lt;/span&gt;&lt;br /&gt;
+Pr(dm) = Pr(DM) = &lt;span class=&#34;math inline&#34;&gt;\(\frac{\theta}{2}\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;Question 3&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Suppose a family pedigree is as follows. (Score 35)&lt;/span&gt;&lt;br /&gt;
+&lt;img src=&#34;q3.PNG&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;a. What are recombinant haplotypes?&lt;/span&gt;&lt;br /&gt;
+Dm&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;b. What are non-recombinant haplotypes?&lt;/span&gt;&lt;br /&gt;
+DM, dm&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;c. Estimate recombination probability θ and what is the standard error?&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(n = 5, r = 1, s = 4\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\theta = \frac{1}{5} = 0.2\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(se = \sqrt{\frac{rs}{n^3}} = \sqrt{\frac{4}{125}}=0.179\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;d. We want to test if there is independent assortment between the two loci. What is the &lt;span class=&#34;math inline&#34;&gt;\(H_0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(H_1\)&lt;/span&gt;?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(H_0\)&lt;/span&gt; : &lt;span class=&#34;math inline&#34;&gt;\(\theta = 0.5\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(H_1\)&lt;/span&gt; : &lt;span class=&#34;math inline&#34;&gt;\(\theta \leq 0.5\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;e. Conduct a statistical test of question d, and show your conclusion. (Hint: binomial test)&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;binom.test(x=1,n=5,p=0.5,alternative=c(&amp;quot;less&amp;quot;),conf.level=0.95)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+##  Exact binomial test
+## 
+## data:  1 and 5
+## number of successes = 1, number of trials = 5, p-value = 0.1875
+## alternative hypothesis: true probability of success is less than 0.5
+## 95 percent confidence interval:
+##  0.0000000 0.6574083
+## sample estimates:
+## probability of success 
+##                    0.2&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The p-value for our test is 0.1875 which is greater than 0.05, so we failed to reject the null hypotheis and conclude that &lt;span class=&#34;math inline&#34;&gt;\(\theta = 0.5\)&lt;/span&gt; whcih means there is independent assortment between the two loci.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;f. Extra Credit (Score 5): Suppose we do not know father’s genotype in the pedigree. Can we infer the father’s genotype with haplotype information and what are they?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Yes, we can. Offspring’s genotypes contain allele D/d and allele M/m, so, father’s genotype must contain D,d,M,m.&lt;br /&gt;
+And among offspring, there are three types of haplotypes came from father, they are DM, dm and Dm.&lt;br /&gt;
+Hence, father’s genotype should be informative, and there are two possiable genotypes for father.&lt;br /&gt;
+1. DM|dm 2. Dm|dM&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;Question 4&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Weather report shows that snowing probability on Friday is 60%. Big data analysis indicates that the probability of UMMC cancelling class is 70% if there is snow, and the probability is 5% if there is no snow. (Score: 15)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;a. Construct the contingency table of probability (Score: 5)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(Pr(snow) = 0.6\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(Pr(no-snow) = 0.4\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(Pr(cancel | snow) = 0.7\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(Pr(cancel | no-snow) = 0.05\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(Pr(snow, cancel) = Pr(cancel | snow)Pr(snow) = 0.7*0.6 = 0.42\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(Pr(snow, no-cancel) = Pr(snow) - Pr(snow, cancel) = 0.6 - 0.42 = 0.18\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(Pr(no-snow, cancel) = Pr(cancel | no-snow)Pr(no-snow) = 0.05*0.4 = 0.02\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(Pr(no-snow, no-cancel) = Pr(no-snow) - Pr(no-snow, cancel) = 0.4 - 0.02 = 0.38\)&lt;/span&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;~~~~~&lt;/th&gt;
+&lt;th&gt;cancel&lt;/th&gt;
+&lt;th&gt;no-cancel&lt;/th&gt;
+&lt;th&gt;~~~~~&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;snow&lt;/td&gt;
+&lt;td&gt;0.42&lt;/td&gt;
+&lt;td&gt;0.18&lt;/td&gt;
+&lt;td&gt;0.6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;no-snow&lt;/td&gt;
+&lt;td&gt;0.02&lt;/td&gt;
+&lt;td&gt;0.38&lt;/td&gt;
+&lt;td&gt;0.4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;~~~~~&lt;/td&gt;
+&lt;td&gt;0.44&lt;/td&gt;
+&lt;td&gt;0.56&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;b. What is the probability that class will be cancelled on Friday? (Score: 5)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Pr(cancel) = Pr(cancel, snow) + Pr(cancel, no-snow) = 0.42 + 0.02 = 0.44&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;c. What is the probability that there is snow on Friday if class is canceled? (Score: 5)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(Pr(snow | cancel) = \frac{Pr(snow,cancel)}{Pr(cancel)} = \frac{0.42}{0.44} = 0.955\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;Question 5&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;A prospective study collected 100 smokers and 100 non-smokers. After 10 years, the study observed 30 smokers and 10 non-smokers got lung cancer. If our objective is that smoking is associated with cancer risk, then&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;a. Write down the hypothesis and estimate the parameters for hypothesis test (Score: 10) &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(H_0\)&lt;/span&gt; : Pr(cancer, smoker) = Pr(cancer, non-smoker)&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(H_a\)&lt;/span&gt; : Pr(cancer, smoker) &lt;span class=&#34;math inline&#34;&gt;\(\neq\)&lt;/span&gt; Pr(cancer, non-smoker)&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(Pr(cancer,smoker) = \frac{30}{100} = 0.3\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(Pr(cancer,non-smoker) = \frac{10}{100} = 0.1\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;b. perform a statistical test, get the statistic with p-value and show your conclusion (Score: 10) &lt;/span&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;~~~~~&lt;/th&gt;
+&lt;th&gt;cancer&lt;/th&gt;
+&lt;th&gt;no-cancer&lt;/th&gt;
+&lt;th&gt;~~~~~&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;smoker&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;70&lt;/td&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;non-smoker&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;90&lt;/td&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;~~~~~&lt;/td&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;160&lt;/td&gt;
+&lt;td&gt;200&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{p_1} = 0.3, x_1 = 30, n_1 = 100\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{p_2} = 0.1, x_2 = 10, n_2 = 100\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\bar{p} = \frac{x_1 + x_2}{n_1 + n_2} = \frac{40}{200} = 0.2\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{\sigma}_{\hat{p_1} - \hat{p_2}} = \sqrt{\frac{\bar{p}(1-\bar{p})}{n_1} + \frac{\bar{p}(1-\bar{p})}{n_2}}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;$ = = 0.0566$&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(z = \frac{\hat{p_1} - \hat{p_2}}{\hat{\sigma}_{\hat{p_1} - \hat{p_2}}} = \frac{0.3-0.1}{0.0566} = 3.54\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The P-Value is .0004.&lt;/p&gt;
+&lt;p&gt;Because our p-value is 0.0004 which is less than 0 at 0.05 alpha level, we reject the null hypothesis and conclude that smoking is associated with cancer risk.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Note12 Cox Model Diagnostics</title>
+      <link>/post/note12-cox-model-diagnostics/</link>
+      <pubDate>Thu, 20 Feb 2020 16:32:49 -0600</pubDate>
+      <guid>/post/note12-cox-model-diagnostics/</guid>
+      <description>
+
+
+&lt;div id=&#34;testing-the-proportional-hazard-assumptions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;Testing the Proportional Hazard Assumptions&lt;/span&gt;&lt;/h2&gt;
+&lt;div id=&#34;schoenfeld-residuals1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Schoenfeld Residuals&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Instead of a single residual for each individual, there is a separate residual for each individual for each covariate.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Schonefeld residuals are not defined for censored individuals.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(Schonefeld residual = x_{ik} - \sum_{i=1}^{j\in R(t_i)} x_{kj}P_j\)&lt;/span&gt;&lt;/span&gt;
+- The Schoenfeld residual is the covariate-value, &lt;span class=&#34;math inline&#34;&gt;\(x_{ik}\)&lt;/span&gt;, for the person i who actually died at time &lt;span class=&#34;math inline&#34;&gt;\(t_i\)&lt;/span&gt; minus the expected value of the covariate for the risk set at &lt;span class=&#34;math inline&#34;&gt;\(t_i\)&lt;/span&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Plot Schoenfeld residuals against time to evaluate PH assumption.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If the slope is not zero then the proportional hazard assumption has been violated.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;kaplan-meier-curves2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Kaplan-Meier Curves&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If the predictor satisfy the proportional hazard assumption then the graph of the survival function versus the survival time should results in a graph with parallel curves.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This method does not work well for continuous predictor or categorical predictors that have many levels because the graph becomes to “cluttered”.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;log-log-plot2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Log-log Plot&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The log(-log(survival)) versus log of survival time graph should result in parallel lines if the predictor is proportional.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;general-model-fit&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;General Model Fit&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Theorem:&lt;/span&gt; Suppose T is a continuous nonnegative random variable with cumulative hazard function &lt;span class=&#34;math inline&#34;&gt;\(\Lambda\)&lt;/span&gt;. Then the random variaable $ Y = (T)$ follows an exponential distribution with rate&lt;span class=&#34;math inline&#34;&gt;\(\lambda = 1\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;One way of checking the validty of a model is by comparing the model’s estimates {&lt;span class=&#34;math inline&#34;&gt;\(\hat{\Lambda}(t_i)\)&lt;/span&gt;} against the standard exponential distribution.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;cox-snell-residuals&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Cox-Snell Residuals&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{e}_i = \hat{\Lambda_0}(t_i) exp(x_i^T \hat{\beta})\)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Application: to examine the overall fit of a Cox model: by plotting the Cox-Snell residual against the cumulative hazard function.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A well fitting model will exhibit a linear line through the origin with a unit gradien.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;These residuals should behave like a sample from an exponential distribution with a mean equal to 1.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cox-Snell residuals do not account for censored observations.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;One drawback to the Cox-Snell residuals is that they don’t
+provide much insight into why the model’s assumptions are
+violated。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;martingale-residuals3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Martingale Residuals&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{m}_{i} = d_i - \hat{\Lambda}_i(t_i)\)&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Martingale residuals can be used to assess the true functional form of a particular covariate (Thernau et al. (1990)).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Positive values mean that the patient died sooner than expected (according to the model); negative values mean that the patient lived longer than expected (or were censored).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Martingale residuals are very useful and can be used for many of the usual purposes that we use residuals for in other models (identifying outliers, choosing a functional form for the covariate, etc.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;However, the primary drawback to the martingale residual is its clear asymmetry (its upper bound is 1, but it has no lowerbound)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outliers-identification&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Outliers Identification&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Overall:&lt;/span&gt; plot deviance residual vs time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Variable Specific:&lt;/span&gt;plot dfBetas vs time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;DFBetas&lt;/span&gt; Measure of how much an observation has effected the estimate of a regression coefficient (there is one DFBETA for each regression coefficient, including the intercept). Values larger than 2/sqrt(n) in absolute value are considered highly influential.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;linearity-visual&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Linearity Visual&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;plot deviance residual vs continuous variable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;predictive-power&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Predictive Power&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Harrell’s C-index (concordance index)&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;The intuition behind Harrell’s C-index is as follows. For patient i, our risk model assigns a risk score &lt;span class=&#34;math inline&#34;&gt;\(\eta_i\)&lt;/span&gt; . If our risk model is any good, patients who had shorter times-to-disease should have higher risk scores. Boiling this intuition down to two patients: the patient with the higher risk score should have a shorter time-to-disease.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;We can compute the C-index in the following way: For every pair of patients i and j (with i &lt;span class=&#34;math inline&#34;&gt;\(\neq\)&lt;/span&gt; j), look at their risk scores and times-to-event.&lt;/p&gt;
+&lt;div id=&#34;both-i-and-j-are-not-censored&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;span style=&#34;color:pink&#34;&gt;Both i and j are not censored&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(T_j\)&lt;/span&gt; &amp;lt; &lt;span class=&#34;math inline&#34;&gt;\(T_i\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\eta_j &amp;lt; \eta_i\)&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:orange&#34;&gt;discordant pair&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(T_j\)&lt;/span&gt; &amp;lt; &lt;span class=&#34;math inline&#34;&gt;\(T_i\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\eta_j &amp;gt; \eta_i\)&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:orange&#34;&gt;concordant pair&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;discordant pair:&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;both-i-and-j-are-censored&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;span style=&#34;color:pink&#34;&gt;Both i and j are censored&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;We don’t consider this pair in this situation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;i-is-censored-and-j-is-not-censored&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;span style=&#34;color:pink&#34;&gt;i is censored and j is not censored&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(T_j\)&lt;/span&gt; &amp;lt; &lt;span class=&#34;math inline&#34;&gt;\(T_i\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\eta_i &amp;gt; \eta_j\)&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:orange&#34;&gt;discordant pair&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(T_j\)&lt;/span&gt; &amp;lt; &lt;span class=&#34;math inline&#34;&gt;\(T_i\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\eta_i &amp;lt; \eta_j\)&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:orange&#34;&gt;concordant pair&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(T_j\)&lt;/span&gt; &amp;gt; &lt;span class=&#34;math inline&#34;&gt;\(T_i\)&lt;/span&gt; then we don’t know who got disease first, we don’t consider this pair in this situation.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;c = #concordant_pairs / #concordant_pairs + #discordant_pairs&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Values of c near 0.5 indicate that the risk score predictions are no better than a coin flip in determining which patient will live longer.&lt;/p&gt;
+&lt;p&gt;Values near 1 indicate that the risk scores are good at determining which of two patients will have the disease first.&lt;/p&gt;
+&lt;p&gt;Values near 0 means that the risk scores are worse than a coin flip: you might be better off concluding the opposite of what the risk scores tell you.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://slideplayer.com/slide/14000214/&#34; class=&#34;uri&#34;&gt;https://slideplayer.com/slide/14000214/&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://stats.idre.ucla.edu/other/examples/asa2/testing-the-proportional-hazard-assumption-in-cox-models/&#34; class=&#34;uri&#34;&gt;https://stats.idre.ucla.edu/other/examples/asa2/testing-the-proportional-hazard-assumption-in-cox-models/&lt;/a&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://stats.idre.ucla.edu/other/examples/asa2/testing-the-proportional-hazard-assumption-in-cox-models/&#34; class=&#34;uri&#34;&gt;https://stats.idre.ucla.edu/other/examples/asa2/testing-the-proportional-hazard-assumption-in-cox-models/&lt;/a&gt;&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://myweb.uiowa.edu/pbreheny/7210/f15/notes/11-10.pdf&#34; class=&#34;uri&#34;&gt;https://myweb.uiowa.edu/pbreheny/7210/f15/notes/11-10.pdf&lt;/a&gt;&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://statisticaloddsandends.wordpress.com/2019/10/26/what-is-harrells-c-index/&#34; class=&#34;uri&#34;&gt;https://statisticaloddsandends.wordpress.com/2019/10/26/what-is-harrells-c-index/&lt;/a&gt;&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Note11 Cox Models</title>
+      <link>/post/note11-cox-models/</link>
+      <pubDate>Thu, 20 Feb 2020 13:21:32 -0600</pubDate>
+      <guid>/post/note11-cox-models/</guid>
+      <description>
+
+
+&lt;p&gt;Cox Models = Propotional Hazards Models&lt;/p&gt;
+&lt;div id=&#34;modeling-the-hazard-function1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;Modeling the Hazard Function&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Survival analysis methods, such as proportional hazards regression differ from logistic regression by assessing a rate instead of a proportion.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Proportional hazards regression, also called Cox regression, &lt;span style=&#34;color:orange&#34;&gt;models the incidence or hazard rate, the number of new cases of disease per population at-risk per unit time.&lt;/span&gt; If the outcome is death, this is the mortality rate.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The hazard function is the probability that if a person survives to t, they will experience the event in the next instant.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\lambda (t|X_{1i}, X_{2i}, ..., X_{ki}) = \lambda _0 (t)exp(\beta_1X_{1i} + \beta_2X_{2i} + ... +\beta_kX_{ki})\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(log(\frac{\lambda (t|X_{1i}, X_{2i}, ..., X_{ki})}{\lambda _0 (t)}) = exp(\beta_1X_{1i} + \beta_2X_{2i} + ... +\beta_kX_{ki})\)&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(\lambda (t|X_{1i}, X_{2i}, ..., X_{ki}):\)&lt;/span&gt;&lt;/span&gt; this is the the hazard function for the ith person at time t,i=1,2,⋯,n. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(\lambda _0 (t):\)&lt;/span&gt;&lt;/span&gt; this is the baseline hazard function at time t, which is analogous to the intercept term in a multiple regression or logistic regression model. And it is unknown.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(log(\frac{\lambda (t|X_{1i}, X_{2i}, ..., X_{ki})}{\lambda _0 (t)}):\)&lt;/span&gt;&lt;/span&gt; this is the log of hazard ratio. The ratio of hazard functions can be considered a ratio of risk functions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There is no particular probability model selected to represent the survival times.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;But there is a big &lt;span style=&#34;color:orange&#34;&gt;assumption&lt;/span&gt;: the hazard for any individual is a fixed proportion of the hazard for any other individual. (i.e., proportional hazards). Notice if &lt;span class=&#34;math inline&#34;&gt;\(λ_0(t)\)&lt;/span&gt; is the hazard function for a subject with all the predictor values equal to zero and &lt;span class=&#34;math inline&#34;&gt;\(λ_1(t)\)&lt;/span&gt; is the hazard function for a subject with other values for the predictor variables, then the hazard ratio depends only on the predictor variables and not on time t. This assumption means if a covariate doubles the risk of the event on day one, it also doubles the risk of the event on any other day.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;output-interpretation&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style = &#34;color:red&#34;&gt;Output Interpretation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:green&#34;&gt;Hazard Ratio&lt;/span&gt;: similar with odds ratio.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:green&#34;&gt;Continuous&lt;/span&gt;: A unit increase in X is associated with a YY% increase/decrease in the hazard of (event) on average.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:green&#34;&gt;Binary&lt;/span&gt;: On average, A has YY% higher/lower hazard of (event) compared to B.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://online.stat.psu.edu/stat507/node/81/&#34; class=&#34;uri&#34;&gt;https://online.stat.psu.edu/stat507/node/81/&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Note10 Kaplan Meier Estimation</title>
+      <link>/post/note10-kaplan-meier-estimation/</link>
+      <pubDate>Tue, 18 Feb 2020 21:53:55 -0600</pubDate>
+      <guid>/post/note10-kaplan-meier-estimation/</guid>
+      <description>
+
+
+&lt;div id=&#34;understanding-k-m-curve&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt; Understanding K-M Curve &lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;the K-M survival curve is defined as the probability of surviving in a given length of time while considering time in many small intervals.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;interval: the horizontal line in K-M graph.&lt;br /&gt;
+serial time duration contains two types of duration:&lt;br /&gt;
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;known survival(event occured)&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;unknown survival(censored)&lt;br /&gt;
+and only 1 are called interval in K-M graph, 2 are indicated on K-M curve as tick marks.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;vertical distance between horizontals: illustrate the change in cumulative survival probablity as the curve advances.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;K-M curve are not smooth function, but rather step-wise estimates.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In K-M curve, the Y axis stands for cumulative surviving probability.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;cumulative surviving prob = &lt;span class=&#34;math inline&#34;&gt;\(\Pi (interval survival rate)\)&lt;/span&gt;, each horizontal line as an interval survival rate,&lt;br /&gt;
+interval survival rate = &lt;span class=&#34;math inline&#34;&gt;\(\frac{total-number-of-current-alive-people}{total-number-of-alive-people- in-previous-horizontal-line-excluding-censored-people}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;censoring has an effect on the survival rate.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;censoring removes the subjects from the denominator.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;K-M Estimation is a non-parametric estimation of survival function.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;when no event times are censored, a non-parametric estimator of S(T) is &lt;span class=&#34;math inline&#34;&gt;\(1-F_{n}(t)\)&lt;/span&gt;, where &lt;span class=&#34;math inline&#34;&gt;\(F_{n}(t)\)&lt;/span&gt; is the empirical cumulative distribution function.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;when some observations are censored, we can estimate S(t) using KM estimation.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let: &lt;span class=&#34;math inline&#34;&gt;\(n_i\)&lt;/span&gt; be number of objects at risk of dying at time &lt;span class=&#34;math inline&#34;&gt;\(t_i\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(d_i\)&lt;/span&gt; be number of events that occur at time &lt;span class=&#34;math inline&#34;&gt;\(t_i\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;km-estimator&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt; KM estimator &lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{S}(t) = \prod_{k=1}^i \frac{n_k - d_k}{n_k}\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;basic-tests-for-difference-in-survival-curves&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt; Basic tests for difference in survival curves&lt;/h2&gt;
+&lt;p&gt;Want to test:&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(H_0: S_1(t) = S_2(t)\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(H_1: S_1(t) \neq S_2(t)\)&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mydat &amp;lt;- matrix(c(&amp;#39;d1i&amp;#39;,&amp;#39;d2i&amp;#39;,&amp;#39;n1i-d1i&amp;#39;,&amp;#39;n2i-d2i&amp;#39;),ncol = 2, byrow = T)
+colnames(mydat) &amp;lt;- c(&amp;#39;Group 1&amp;#39;, &amp;#39;Group 2&amp;#39;)
+rownames(mydat) &amp;lt;- c(&amp;#39;Died&amp;#39;,&amp;#39;Survived&amp;#39;)
+mydat&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##          Group 1   Group 2  
+## Died     &amp;quot;d1i&amp;quot;     &amp;quot;d2i&amp;quot;    
+## Survived &amp;quot;n1i-d1i&amp;quot; &amp;quot;n2i-d2i&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Test Statistic:&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(Q = \frac{(\sum w_i (d_{1i} - \hat{e}_{1i}))^2}{\sum w_i ^2 \hat{v}_{1i}}\)&lt;/span&gt;
+where:&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(\hat{e}_{1i} = \frac{n_{1i}d_{1i}}{n_{i}}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{v}_{1i} = \frac{n_{1i}n_{2i}d_i (n_i - d_i)}{n_i ^2 (n_i - 1)}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(w_i =\)&lt;/span&gt; some weighting functing&lt;/p&gt;
+&lt;p&gt;Tests:&lt;br /&gt;
+Log-rank: &lt;span class=&#34;math inline&#34;&gt;\(w_i = 1\)&lt;/span&gt;&lt;br /&gt;
+Wilcoxon: &lt;span class=&#34;math inline&#34;&gt;\(w_i = n_i\)&lt;/span&gt;&lt;br /&gt;
+Tarone-ware: &lt;span class=&#34;math inline&#34;&gt;\(w_i = \sqrt{n_i}\)&lt;/span&gt;&lt;br /&gt;
+Peto-Peto: &lt;span class=&#34;math inline&#34;&gt;\(w_i = \prod_{i=1}^T (\frac{1-\hat{e}_i}{n_i + 1})\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Reference:&lt;br /&gt;
+Rich, J. T., Neely, J. G., Paniello, R. C., Voelker, C. C., Nussenbaum, B., &amp;amp; Wang, E. W. (2010). A practical guide to understanding Kaplan-Meier curves. Otolaryngology–head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery, 143(3), 331–336. &lt;a href=&#34;https://doi.org/10.1016/j.otohns.2010.05.007&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1016/j.otohns.2010.05.007&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Note9 Intro to Survival Analysis</title>
+      <link>/post/note9-intro-to-survival-analysis/</link>
+      <pubDate>Tue, 18 Feb 2020 17:33:44 -0600</pubDate>
+      <guid>/post/note9-intro-to-survival-analysis/</guid>
+      <description>
+
+
+&lt;div id=&#34;time-to-event-data&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:Red&#34;&gt;Time to Event Data&lt;/span&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: Failure, Lifetime Data, Time-event, Time-to-event-data&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Outcome&lt;/strong&gt;: Time until some events occures -&amp;gt; survival analysis.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In order to measure survival time, need a begining(t=0) and end(t = T).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;t=0&lt;/strong&gt; is when the clock starts.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;t=T&lt;/strong&gt; is when the event occurs(or censored) + clock stops.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Between this two times(t - T), the subject is said to be “at risk” for the event.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Survival time T is the difference between these two points.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Usually measured in days, months or years.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Question: Time is continuous, why not using linear regression?&lt;/p&gt;
+&lt;p&gt;Answer: Censoring! If no censoring, you can use it!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;censoring&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:Red&#34;&gt;Censoring&lt;/span&gt;&lt;/h2&gt;
+&lt;div id=&#34;right-censoredby-for-the-most-common&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Right Censored(by for the most common)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;known survival time is greater than some value: T &amp;gt; a&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;left-censoredrare&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Left Censored(rare)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;known survival time is less than some value: T &amp;lt; b&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;interval-censored&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Interval Censored&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;known survival time is within some interval: a &amp;lt; T &amp;lt; b&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;functions-of-survival-time&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:Red&#34;&gt;Functions of Survival Time&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;PDF: f(t)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;CDF: F(t) = P(T&amp;lt;t)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Survival Function S(t): S(t) = P(T&amp;gt;t) = 1 - F(t), this is the prob that people survived passed t.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Unconditional probability failure rate f(t): &lt;span class=&#34;math inline&#34;&gt;\(f(t) = \lim_{\Delta t\to\ 0}\frac{P(t \leq T \leq t + \Delta t)}{\Delta t}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But, subjects who have died before time t are no longer at risk during (t, t + t).&lt;br /&gt;
+So it make sense to think of a conditional failure rate.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Conditional failure rate: risk of an event occuring at time t, given the subject has survived to time t.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Hazard Function h(t)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(h(t) = \lim_{\Delta t\to\ 0}\frac{P(t \leq T \leq t + \Delta t | T \geq t)}{\Delta t}\)&lt;/span&gt;, &lt;span style=&#34;color:orange&#34;&gt;h(t) &amp;gt; 0, h(t) is not a probability. The hazard function, h(t), is the instantaneous rate at which events occur, given no previous events.&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cumulative Hazard Function H(t)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(H(t) = \int\limits_{0}^{t} h(u) du\)&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Relationships between S(t), H(t), h(t), f(t)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(h(t) = - \frac{\partial log(S(t))}{\partial t} = \frac{f(t)}{S(t)}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(H(t) = -log(S(t))\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(S(t) = exp(-H(t))\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(f(t) = - \frac{\partial S(t)}{\partial t}\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;comment-for-survival-distributions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt; Comment for Survival Distributions&lt;/span&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;46%&#34; /&gt;
+&lt;col width=&#34;17%&#34; /&gt;
+&lt;col width=&#34;17%&#34; /&gt;
+&lt;col width=&#34;17%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;Distribution&lt;/th&gt;
+&lt;th&gt;h(t)&lt;/th&gt;
+&lt;th&gt;S(t)&lt;/th&gt;
+&lt;th&gt;f(t)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Exponential&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\lambda\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(exp(-\lambda t)\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\lambda exp(-\lambda t)\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Weibull&lt;/td&gt;
+&lt;td&gt;$t^{-1} $&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(exp(-\lambda t^\alpha)\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\alpha \lambda t^{\alpha -1}exp(-\lambda t^\alpha)\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Gompertze&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\theta exp(\alpha t)\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(exp(\frac{\theta}{\alpha}(1-exp(\alpha t)))\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\theta exp(\alpha t)exp(\frac{\theta}{\alpha}(1-exp(\alpha t)))\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Others: Gamma, lognormal, log-logistic, inverse gaussian, Pareto&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One 
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt; 
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three 
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/img/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internal Project</title>
+      <link>/project/internal-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/internal-project/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

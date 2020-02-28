@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>km-estimation | Mengna&#39;s Space</title>
+    <link>/tags/km-estimation/</link>
+      <atom:link href="/tags/km-estimation/index.xml" rel="self" type="application/rss+xml" />
+    <description>km-estimation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Feb 2020 21:53:55 -0600</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>km-estimation</title>
+      <link>/tags/km-estimation/</link>
+    </image>
+    
+    <item>
+      <title>Note10 Kaplan Meier Estimation</title>
+      <link>/post/note10-kaplan-meier-estimation/</link>
+      <pubDate>Tue, 18 Feb 2020 21:53:55 -0600</pubDate>
+      <guid>/post/note10-kaplan-meier-estimation/</guid>
+      <description>
+
+
+&lt;div id=&#34;understanding-k-m-curve&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt; Understanding K-M Curve &lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;the K-M survival curve is defined as the probability of surviving in a given length of time while considering time in many small intervals.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;interval: the horizontal line in K-M graph.&lt;br /&gt;
+serial time duration contains two types of duration:&lt;br /&gt;
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;known survival(event occured)&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;unknown survival(censored)&lt;br /&gt;
+and only 1 are called interval in K-M graph, 2 are indicated on K-M curve as tick marks.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;vertical distance between horizontals: illustrate the change in cumulative survival probablity as the curve advances.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;K-M curve are not smooth function, but rather step-wise estimates.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In K-M curve, the Y axis stands for cumulative surviving probability.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;cumulative surviving prob = &lt;span class=&#34;math inline&#34;&gt;\(\Pi (interval survival rate)\)&lt;/span&gt;, each horizontal line as an interval survival rate,&lt;br /&gt;
+interval survival rate = &lt;span class=&#34;math inline&#34;&gt;\(\frac{total-number-of-current-alive-people}{total-number-of-alive-people- in-previous-horizontal-line-excluding-censored-people}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;censoring has an effect on the survival rate.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;censoring removes the subjects from the denominator.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;K-M Estimation is a non-parametric estimation of survival function.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;when no event times are censored, a non-parametric estimator of S(T) is &lt;span class=&#34;math inline&#34;&gt;\(1-F_{n}(t)\)&lt;/span&gt;, where &lt;span class=&#34;math inline&#34;&gt;\(F_{n}(t)\)&lt;/span&gt; is the empirical cumulative distribution function.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;when some observations are censored, we can estimate S(t) using KM estimation.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let: &lt;span class=&#34;math inline&#34;&gt;\(n_i\)&lt;/span&gt; be number of objects at risk of dying at time &lt;span class=&#34;math inline&#34;&gt;\(t_i\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(d_i\)&lt;/span&gt; be number of events that occur at time &lt;span class=&#34;math inline&#34;&gt;\(t_i\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;km-estimator&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt; KM estimator &lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{S}(t) = \prod_{k=1}^i \frac{n_k - d_k}{n_k}\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;basic-tests-for-difference-in-survival-curves&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt; Basic tests for difference in survival curves&lt;/h2&gt;
+&lt;p&gt;Want to test:&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(H_0: S_1(t) = S_2(t)\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(H_1: S_1(t) \neq S_2(t)\)&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mydat &amp;lt;- matrix(c(&amp;#39;d1i&amp;#39;,&amp;#39;d2i&amp;#39;,&amp;#39;n1i-d1i&amp;#39;,&amp;#39;n2i-d2i&amp;#39;),ncol = 2, byrow = T)
+colnames(mydat) &amp;lt;- c(&amp;#39;Group 1&amp;#39;, &amp;#39;Group 2&amp;#39;)
+rownames(mydat) &amp;lt;- c(&amp;#39;Died&amp;#39;,&amp;#39;Survived&amp;#39;)
+mydat&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##          Group 1   Group 2  
+## Died     &amp;quot;d1i&amp;quot;     &amp;quot;d2i&amp;quot;    
+## Survived &amp;quot;n1i-d1i&amp;quot; &amp;quot;n2i-d2i&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Test Statistic:&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(Q = \frac{(\sum w_i (d_{1i} - \hat{e}_{1i}))^2}{\sum w_i ^2 \hat{v}_{1i}}\)&lt;/span&gt;
+where:&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(\hat{e}_{1i} = \frac{n_{1i}d_{1i}}{n_{i}}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{v}_{1i} = \frac{n_{1i}n_{2i}d_i (n_i - d_i)}{n_i ^2 (n_i - 1)}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(w_i =\)&lt;/span&gt; some weighting functing&lt;/p&gt;
+&lt;p&gt;Tests:&lt;br /&gt;
+Log-rank: &lt;span class=&#34;math inline&#34;&gt;\(w_i = 1\)&lt;/span&gt;&lt;br /&gt;
+Wilcoxon: &lt;span class=&#34;math inline&#34;&gt;\(w_i = n_i\)&lt;/span&gt;&lt;br /&gt;
+Tarone-ware: &lt;span class=&#34;math inline&#34;&gt;\(w_i = \sqrt{n_i}\)&lt;/span&gt;&lt;br /&gt;
+Peto-Peto: &lt;span class=&#34;math inline&#34;&gt;\(w_i = \prod_{i=1}^T (\frac{1-\hat{e}_i}{n_i + 1})\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Reference:&lt;br /&gt;
+Rich, J. T., Neely, J. G., Paniello, R. C., Voelker, C. C., Nussenbaum, B., &amp;amp; Wang, E. W. (2010). A practical guide to understanding Kaplan-Meier curves. Otolaryngology–head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery, 143(3), 331–336. &lt;a href=&#34;https://doi.org/10.1016/j.otohns.2010.05.007&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1016/j.otohns.2010.05.007&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

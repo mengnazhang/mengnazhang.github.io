@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>survival-analysis | Mengna&#39;s Space</title>
+    <link>/tags/survival-analysis/</link>
+      <atom:link href="/tags/survival-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>survival-analysis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Feb 2020 17:33:44 -0600</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>survival-analysis</title>
+      <link>/tags/survival-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Note9 Intro to Survival Analysis</title>
+      <link>/post/note9-intro-to-survival-analysis/</link>
+      <pubDate>Tue, 18 Feb 2020 17:33:44 -0600</pubDate>
+      <guid>/post/note9-intro-to-survival-analysis/</guid>
+      <description>
+
+
+&lt;div id=&#34;time-to-event-data&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:Red&#34;&gt;Time to Event Data&lt;/span&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: Failure, Lifetime Data, Time-event, Time-to-event-data&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Outcome&lt;/strong&gt;: Time until some events occures -&amp;gt; survival analysis.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In order to measure survival time, need a begining(t=0) and end(t = T).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;t=0&lt;/strong&gt; is when the clock starts.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;t=T&lt;/strong&gt; is when the event occurs(or censored) + clock stops.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Between this two times(t - T), the subject is said to be “at risk” for the event.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Survival time T is the difference between these two points.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Usually measured in days, months or years.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Question: Time is continuous, why not using linear regression?&lt;/p&gt;
+&lt;p&gt;Answer: Censoring! If no censoring, you can use it!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;censoring&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:Red&#34;&gt;Censoring&lt;/span&gt;&lt;/h2&gt;
+&lt;div id=&#34;right-censoredby-for-the-most-common&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Right Censored(by for the most common)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;known survival time is greater than some value: T &amp;gt; a&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;left-censoredrare&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Left Censored(rare)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;known survival time is less than some value: T &amp;lt; b&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;interval-censored&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Interval Censored&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;known survival time is within some interval: a &amp;lt; T &amp;lt; b&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;functions-of-survival-time&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:Red&#34;&gt;Functions of Survival Time&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;PDF: f(t)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;CDF: F(t) = P(T&amp;lt;t)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Survival Function S(t): S(t) = P(T&amp;gt;t) = 1 - F(t), this is the prob that people survived passed t.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Unconditional probability failure rate f(t): &lt;span class=&#34;math inline&#34;&gt;\(f(t) = \lim_{\Delta t\to\ 0}\frac{P(t \leq T \leq t + \Delta t)}{\Delta t}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But, subjects who have died before time t are no longer at risk during (t, t + t).&lt;br /&gt;
+So it make sense to think of a conditional failure rate.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Conditional failure rate: risk of an event occuring at time t, given the subject has survived to time t.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Hazard Function h(t)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(h(t) = \lim_{\Delta t\to\ 0}\frac{P(t \leq T \leq t + \Delta t | T \geq t)}{\Delta t}\)&lt;/span&gt;, &lt;span style=&#34;color:orange&#34;&gt;h(t) &amp;gt; 0, h(t) is not a probability. The hazard function, h(t), is the instantaneous rate at which events occur, given no previous events.&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cumulative Hazard Function H(t)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(H(t) = \int\limits_{0}^{t} h(u) du\)&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Relationships between S(t), H(t), h(t), f(t)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(h(t) = - \frac{\partial log(S(t))}{\partial t} = \frac{f(t)}{S(t)}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(H(t) = -log(S(t))\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(S(t) = exp(-H(t))\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(f(t) = - \frac{\partial S(t)}{\partial t}\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;comment-for-survival-distributions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt; Comment for Survival Distributions&lt;/span&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;46%&#34; /&gt;
+&lt;col width=&#34;17%&#34; /&gt;
+&lt;col width=&#34;17%&#34; /&gt;
+&lt;col width=&#34;17%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;Distribution&lt;/th&gt;
+&lt;th&gt;h(t)&lt;/th&gt;
+&lt;th&gt;S(t)&lt;/th&gt;
+&lt;th&gt;f(t)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Exponential&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\lambda\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(exp(-\lambda t)\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\lambda exp(-\lambda t)\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Weibull&lt;/td&gt;
+&lt;td&gt;$t^{-1} $&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(exp(-\lambda t^\alpha)\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\alpha \lambda t^{\alpha -1}exp(-\lambda t^\alpha)\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Gompertze&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\theta exp(\alpha t)\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(exp(\frac{\theta}{\alpha}(1-exp(\alpha t)))\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\theta exp(\alpha t)exp(\frac{\theta}{\alpha}(1-exp(\alpha t)))\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Others: Gamma, lognormal, log-logistic, inverse gaussian, Pareto&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

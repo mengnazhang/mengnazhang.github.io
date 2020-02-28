@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cox-models | Mengna&#39;s Space</title>
+    <link>/tags/cox-models/</link>
+      <atom:link href="/tags/cox-models/index.xml" rel="self" type="application/rss+xml" />
+    <description>cox-models</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 20 Feb 2020 13:21:32 -0600</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>cox-models</title>
+      <link>/tags/cox-models/</link>
+    </image>
+    
+    <item>
+      <title>Note11 Cox Models</title>
+      <link>/post/note11-cox-models/</link>
+      <pubDate>Thu, 20 Feb 2020 13:21:32 -0600</pubDate>
+      <guid>/post/note11-cox-models/</guid>
+      <description>
+
+
+&lt;p&gt;Cox Models = Propotional Hazards Models&lt;/p&gt;
+&lt;div id=&#34;modeling-the-hazard-function1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;Modeling the Hazard Function&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Survival analysis methods, such as proportional hazards regression differ from logistic regression by assessing a rate instead of a proportion.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Proportional hazards regression, also called Cox regression, &lt;span style=&#34;color:orange&#34;&gt;models the incidence or hazard rate, the number of new cases of disease per population at-risk per unit time.&lt;/span&gt; If the outcome is death, this is the mortality rate.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The hazard function is the probability that if a person survives to t, they will experience the event in the next instant.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\lambda (t|X_{1i}, X_{2i}, ..., X_{ki}) = \lambda _0 (t)exp(\beta_1X_{1i} + \beta_2X_{2i} + ... +\beta_kX_{ki})\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(log(\frac{\lambda (t|X_{1i}, X_{2i}, ..., X_{ki})}{\lambda _0 (t)}) = exp(\beta_1X_{1i} + \beta_2X_{2i} + ... +\beta_kX_{ki})\)&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(\lambda (t|X_{1i}, X_{2i}, ..., X_{ki}):\)&lt;/span&gt;&lt;/span&gt; this is the the hazard function for the ith person at time t,i=1,2,⋯,n. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(\lambda _0 (t):\)&lt;/span&gt;&lt;/span&gt; this is the baseline hazard function at time t, which is analogous to the intercept term in a multiple regression or logistic regression model. And it is unknown.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(log(\frac{\lambda (t|X_{1i}, X_{2i}, ..., X_{ki})}{\lambda _0 (t)}):\)&lt;/span&gt;&lt;/span&gt; this is the log of hazard ratio. The ratio of hazard functions can be considered a ratio of risk functions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There is no particular probability model selected to represent the survival times.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;But there is a big &lt;span style=&#34;color:orange&#34;&gt;assumption&lt;/span&gt;: the hazard for any individual is a fixed proportion of the hazard for any other individual. (i.e., proportional hazards). Notice if &lt;span class=&#34;math inline&#34;&gt;\(λ_0(t)\)&lt;/span&gt; is the hazard function for a subject with all the predictor values equal to zero and &lt;span class=&#34;math inline&#34;&gt;\(λ_1(t)\)&lt;/span&gt; is the hazard function for a subject with other values for the predictor variables, then the hazard ratio depends only on the predictor variables and not on time t. This assumption means if a covariate doubles the risk of the event on day one, it also doubles the risk of the event on any other day.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;output-interpretation&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style = &#34;color:red&#34;&gt;Output Interpretation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:green&#34;&gt;Hazard Ratio&lt;/span&gt;: similar with odds ratio.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:green&#34;&gt;Continuous&lt;/span&gt;: A unit increase in X is associated with a YY% increase/decrease in the hazard of (event) on average.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:green&#34;&gt;Binary&lt;/span&gt;: On average, A has YY% higher/lower hazard of (event) compared to B.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://online.stat.psu.edu/stat507/node/81/&#34; class=&#34;uri&#34;&gt;https://online.stat.psu.edu/stat507/node/81/&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

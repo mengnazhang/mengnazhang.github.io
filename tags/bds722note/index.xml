@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bds722note | Mengna&#39;s Space</title>
+    <link>/tags/bds722note/</link>
+      <atom:link href="/tags/bds722note/index.xml" rel="self" type="application/rss+xml" />
+    <description>bds722note</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2020 15:56:36 -0600</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>bds722note</title>
+      <link>/tags/bds722note/</link>
+    </image>
+    
+    <item>
+      <title>Note8 Glm Diagnostics</title>
+      <link>/post/note8-glm-diagnostics/</link>
+      <pubDate>Thu, 27 Feb 2020 15:56:36 -0600</pubDate>
+      <guid>/post/note8-glm-diagnostics/</guid>
+      <description>
+
+
+&lt;div id=&#34;assessing-the-link-function&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;Assessing the Link Function&lt;/span&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outlier-detection&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;Outlier Detection&lt;/span&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cook’s distance measures the aggregate change in the estimated coefficients when each observation is left out of the estimation.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;rules-of-thumb&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Rules of thumb:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Note12 Cox Model Diagnostics</title>
+      <link>/post/note12-cox-model-diagnostics/</link>
+      <pubDate>Thu, 20 Feb 2020 16:32:49 -0600</pubDate>
+      <guid>/post/note12-cox-model-diagnostics/</guid>
+      <description>
+
+
+&lt;div id=&#34;testing-the-proportional-hazard-assumptions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;Testing the Proportional Hazard Assumptions&lt;/span&gt;&lt;/h2&gt;
+&lt;div id=&#34;schoenfeld-residuals1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Schoenfeld Residuals&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Instead of a single residual for each individual, there is a separate residual for each individual for each covariate.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Schonefeld residuals are not defined for censored individuals.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(Schonefeld residual = x_{ik} - \sum_{i=1}^{j\in R(t_i)} x_{kj}P_j\)&lt;/span&gt;&lt;/span&gt;
+- The Schoenfeld residual is the covariate-value, &lt;span class=&#34;math inline&#34;&gt;\(x_{ik}\)&lt;/span&gt;, for the person i who actually died at time &lt;span class=&#34;math inline&#34;&gt;\(t_i\)&lt;/span&gt; minus the expected value of the covariate for the risk set at &lt;span class=&#34;math inline&#34;&gt;\(t_i\)&lt;/span&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Plot Schoenfeld residuals against time to evaluate PH assumption.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If the slope is not zero then the proportional hazard assumption has been violated.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;kaplan-meier-curves2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Kaplan-Meier Curves&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If the predictor satisfy the proportional hazard assumption then the graph of the survival function versus the survival time should results in a graph with parallel curves.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This method does not work well for continuous predictor or categorical predictors that have many levels because the graph becomes to “cluttered”.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;log-log-plot2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Log-log Plot&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The log(-log(survival)) versus log of survival time graph should result in parallel lines if the predictor is proportional.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;general-model-fit&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;General Model Fit&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Theorem:&lt;/span&gt; Suppose T is a continuous nonnegative random variable with cumulative hazard function &lt;span class=&#34;math inline&#34;&gt;\(\Lambda\)&lt;/span&gt;. Then the random variaable $ Y = (T)$ follows an exponential distribution with rate&lt;span class=&#34;math inline&#34;&gt;\(\lambda = 1\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;One way of checking the validty of a model is by comparing the model’s estimates {&lt;span class=&#34;math inline&#34;&gt;\(\hat{\Lambda}(t_i)\)&lt;/span&gt;} against the standard exponential distribution.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;cox-snell-residuals&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Cox-Snell Residuals&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{e}_i = \hat{\Lambda_0}(t_i) exp(x_i^T \hat{\beta})\)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Application: to examine the overall fit of a Cox model: by plotting the Cox-Snell residual against the cumulative hazard function.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A well fitting model will exhibit a linear line through the origin with a unit gradien.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;These residuals should behave like a sample from an exponential distribution with a mean equal to 1.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cox-Snell residuals do not account for censored observations.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;One drawback to the Cox-Snell residuals is that they don’t
+provide much insight into why the model’s assumptions are
+violated。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;martingale-residuals3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Martingale Residuals&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{m}_{i} = d_i - \hat{\Lambda}_i(t_i)\)&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Martingale residuals can be used to assess the true functional form of a particular covariate (Thernau et al. (1990)).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Positive values mean that the patient died sooner than expected (according to the model); negative values mean that the patient lived longer than expected (or were censored).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Martingale residuals are very useful and can be used for many of the usual purposes that we use residuals for in other models (identifying outliers, choosing a functional form for the covariate, etc.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;However, the primary drawback to the martingale residual is its clear asymmetry (its upper bound is 1, but it has no lowerbound)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outliers-identification&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Outliers Identification&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Overall:&lt;/span&gt; plot deviance residual vs time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Variable Specific:&lt;/span&gt;plot dfBetas vs time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;DFBetas&lt;/span&gt; Measure of how much an observation has effected the estimate of a regression coefficient (there is one DFBETA for each regression coefficient, including the intercept). Values larger than 2/sqrt(n) in absolute value are considered highly influential.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;linearity-visual&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Linearity Visual&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;plot deviance residual vs continuous variable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;predictive-power&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span style=&#34;color:green&#34;&gt;Predictive Power&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;Harrell’s C-index (concordance index)&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;The intuition behind Harrell’s C-index is as follows. For patient i, our risk model assigns a risk score &lt;span class=&#34;math inline&#34;&gt;\(\eta_i\)&lt;/span&gt; . If our risk model is any good, patients who had shorter times-to-disease should have higher risk scores. Boiling this intuition down to two patients: the patient with the higher risk score should have a shorter time-to-disease.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;We can compute the C-index in the following way: For every pair of patients i and j (with i &lt;span class=&#34;math inline&#34;&gt;\(\neq\)&lt;/span&gt; j), look at their risk scores and times-to-event.&lt;/p&gt;
+&lt;div id=&#34;both-i-and-j-are-not-censored&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;span style=&#34;color:pink&#34;&gt;Both i and j are not censored&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(T_j\)&lt;/span&gt; &amp;lt; &lt;span class=&#34;math inline&#34;&gt;\(T_i\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\eta_j &amp;lt; \eta_i\)&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:orange&#34;&gt;discordant pair&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(T_j\)&lt;/span&gt; &amp;lt; &lt;span class=&#34;math inline&#34;&gt;\(T_i\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\eta_j &amp;gt; \eta_i\)&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:orange&#34;&gt;concordant pair&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;discordant pair:&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;both-i-and-j-are-censored&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;span style=&#34;color:pink&#34;&gt;Both i and j are censored&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;We don’t consider this pair in this situation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;i-is-censored-and-j-is-not-censored&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;span style=&#34;color:pink&#34;&gt;i is censored and j is not censored&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(T_j\)&lt;/span&gt; &amp;lt; &lt;span class=&#34;math inline&#34;&gt;\(T_i\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\eta_i &amp;gt; \eta_j\)&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:orange&#34;&gt;discordant pair&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(T_j\)&lt;/span&gt; &amp;lt; &lt;span class=&#34;math inline&#34;&gt;\(T_i\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\eta_i &amp;lt; \eta_j\)&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:orange&#34;&gt;concordant pair&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(T_j\)&lt;/span&gt; &amp;gt; &lt;span class=&#34;math inline&#34;&gt;\(T_i\)&lt;/span&gt; then we don’t know who got disease first, we don’t consider this pair in this situation.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;c = #concordant_pairs / #concordant_pairs + #discordant_pairs&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Values of c near 0.5 indicate that the risk score predictions are no better than a coin flip in determining which patient will live longer.&lt;/p&gt;
+&lt;p&gt;Values near 1 indicate that the risk scores are good at determining which of two patients will have the disease first.&lt;/p&gt;
+&lt;p&gt;Values near 0 means that the risk scores are worse than a coin flip: you might be better off concluding the opposite of what the risk scores tell you.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://slideplayer.com/slide/14000214/&#34; class=&#34;uri&#34;&gt;https://slideplayer.com/slide/14000214/&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://stats.idre.ucla.edu/other/examples/asa2/testing-the-proportional-hazard-assumption-in-cox-models/&#34; class=&#34;uri&#34;&gt;https://stats.idre.ucla.edu/other/examples/asa2/testing-the-proportional-hazard-assumption-in-cox-models/&lt;/a&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://stats.idre.ucla.edu/other/examples/asa2/testing-the-proportional-hazard-assumption-in-cox-models/&#34; class=&#34;uri&#34;&gt;https://stats.idre.ucla.edu/other/examples/asa2/testing-the-proportional-hazard-assumption-in-cox-models/&lt;/a&gt;&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://myweb.uiowa.edu/pbreheny/7210/f15/notes/11-10.pdf&#34; class=&#34;uri&#34;&gt;https://myweb.uiowa.edu/pbreheny/7210/f15/notes/11-10.pdf&lt;/a&gt;&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://statisticaloddsandends.wordpress.com/2019/10/26/what-is-harrells-c-index/&#34; class=&#34;uri&#34;&gt;https://statisticaloddsandends.wordpress.com/2019/10/26/what-is-harrells-c-index/&lt;/a&gt;&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Note11 Cox Models</title>
+      <link>/post/note11-cox-models/</link>
+      <pubDate>Thu, 20 Feb 2020 13:21:32 -0600</pubDate>
+      <guid>/post/note11-cox-models/</guid>
+      <description>
+
+
+&lt;p&gt;Cox Models = Propotional Hazards Models&lt;/p&gt;
+&lt;div id=&#34;modeling-the-hazard-function1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt;Modeling the Hazard Function&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Survival analysis methods, such as proportional hazards regression differ from logistic regression by assessing a rate instead of a proportion.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Proportional hazards regression, also called Cox regression, &lt;span style=&#34;color:orange&#34;&gt;models the incidence or hazard rate, the number of new cases of disease per population at-risk per unit time.&lt;/span&gt; If the outcome is death, this is the mortality rate.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The hazard function is the probability that if a person survives to t, they will experience the event in the next instant.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\lambda (t|X_{1i}, X_{2i}, ..., X_{ki}) = \lambda _0 (t)exp(\beta_1X_{1i} + \beta_2X_{2i} + ... +\beta_kX_{ki})\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(log(\frac{\lambda (t|X_{1i}, X_{2i}, ..., X_{ki})}{\lambda _0 (t)}) = exp(\beta_1X_{1i} + \beta_2X_{2i} + ... +\beta_kX_{ki})\)&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(\lambda (t|X_{1i}, X_{2i}, ..., X_{ki}):\)&lt;/span&gt;&lt;/span&gt; this is the the hazard function for the ith person at time t,i=1,2,⋯,n. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(\lambda _0 (t):\)&lt;/span&gt;&lt;/span&gt; this is the baseline hazard function at time t, which is analogous to the intercept term in a multiple regression or logistic regression model. And it is unknown.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(log(\frac{\lambda (t|X_{1i}, X_{2i}, ..., X_{ki})}{\lambda _0 (t)}):\)&lt;/span&gt;&lt;/span&gt; this is the log of hazard ratio. The ratio of hazard functions can be considered a ratio of risk functions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There is no particular probability model selected to represent the survival times.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;But there is a big &lt;span style=&#34;color:orange&#34;&gt;assumption&lt;/span&gt;: the hazard for any individual is a fixed proportion of the hazard for any other individual. (i.e., proportional hazards). Notice if &lt;span class=&#34;math inline&#34;&gt;\(λ_0(t)\)&lt;/span&gt; is the hazard function for a subject with all the predictor values equal to zero and &lt;span class=&#34;math inline&#34;&gt;\(λ_1(t)\)&lt;/span&gt; is the hazard function for a subject with other values for the predictor variables, then the hazard ratio depends only on the predictor variables and not on time t. This assumption means if a covariate doubles the risk of the event on day one, it also doubles the risk of the event on any other day.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;output-interpretation&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style = &#34;color:red&#34;&gt;Output Interpretation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:green&#34;&gt;Hazard Ratio&lt;/span&gt;: similar with odds ratio.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:green&#34;&gt;Continuous&lt;/span&gt;: A unit increase in X is associated with a YY% increase/decrease in the hazard of (event) on average.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span style=&#34;color:green&#34;&gt;Binary&lt;/span&gt;: On average, A has YY% higher/lower hazard of (event) compared to B.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://online.stat.psu.edu/stat507/node/81/&#34; class=&#34;uri&#34;&gt;https://online.stat.psu.edu/stat507/node/81/&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Note10 Kaplan Meier Estimation</title>
+      <link>/post/note10-kaplan-meier-estimation/</link>
+      <pubDate>Tue, 18 Feb 2020 21:53:55 -0600</pubDate>
+      <guid>/post/note10-kaplan-meier-estimation/</guid>
+      <description>
+
+
+&lt;div id=&#34;understanding-k-m-curve&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt; Understanding K-M Curve &lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;the K-M survival curve is defined as the probability of surviving in a given length of time while considering time in many small intervals.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;interval: the horizontal line in K-M graph.&lt;br /&gt;
+serial time duration contains two types of duration:&lt;br /&gt;
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;known survival(event occured)&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;unknown survival(censored)&lt;br /&gt;
+and only 1 are called interval in K-M graph, 2 are indicated on K-M curve as tick marks.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;vertical distance between horizontals: illustrate the change in cumulative survival probablity as the curve advances.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;K-M curve are not smooth function, but rather step-wise estimates.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In K-M curve, the Y axis stands for cumulative surviving probability.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;cumulative surviving prob = &lt;span class=&#34;math inline&#34;&gt;\(\Pi (interval survival rate)\)&lt;/span&gt;, each horizontal line as an interval survival rate,&lt;br /&gt;
+interval survival rate = &lt;span class=&#34;math inline&#34;&gt;\(\frac{total-number-of-current-alive-people}{total-number-of-alive-people- in-previous-horizontal-line-excluding-censored-people}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;censoring has an effect on the survival rate.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;censoring removes the subjects from the denominator.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;K-M Estimation is a non-parametric estimation of survival function.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;when no event times are censored, a non-parametric estimator of S(T) is &lt;span class=&#34;math inline&#34;&gt;\(1-F_{n}(t)\)&lt;/span&gt;, where &lt;span class=&#34;math inline&#34;&gt;\(F_{n}(t)\)&lt;/span&gt; is the empirical cumulative distribution function.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;when some observations are censored, we can estimate S(t) using KM estimation.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let: &lt;span class=&#34;math inline&#34;&gt;\(n_i\)&lt;/span&gt; be number of objects at risk of dying at time &lt;span class=&#34;math inline&#34;&gt;\(t_i\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(d_i\)&lt;/span&gt; be number of events that occur at time &lt;span class=&#34;math inline&#34;&gt;\(t_i\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;km-estimator&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt; KM estimator &lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{S}(t) = \prod_{k=1}^i \frac{n_k - d_k}{n_k}\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;basic-tests-for-difference-in-survival-curves&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt; Basic tests for difference in survival curves&lt;/h2&gt;
+&lt;p&gt;Want to test:&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(H_0: S_1(t) = S_2(t)\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(H_1: S_1(t) \neq S_2(t)\)&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mydat &amp;lt;- matrix(c(&amp;#39;d1i&amp;#39;,&amp;#39;d2i&amp;#39;,&amp;#39;n1i-d1i&amp;#39;,&amp;#39;n2i-d2i&amp;#39;),ncol = 2, byrow = T)
+colnames(mydat) &amp;lt;- c(&amp;#39;Group 1&amp;#39;, &amp;#39;Group 2&amp;#39;)
+rownames(mydat) &amp;lt;- c(&amp;#39;Died&amp;#39;,&amp;#39;Survived&amp;#39;)
+mydat&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##          Group 1   Group 2  
+## Died     &amp;quot;d1i&amp;quot;     &amp;quot;d2i&amp;quot;    
+## Survived &amp;quot;n1i-d1i&amp;quot; &amp;quot;n2i-d2i&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Test Statistic:&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(Q = \frac{(\sum w_i (d_{1i} - \hat{e}_{1i}))^2}{\sum w_i ^2 \hat{v}_{1i}}\)&lt;/span&gt;
+where:&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(\hat{e}_{1i} = \frac{n_{1i}d_{1i}}{n_{i}}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat{v}_{1i} = \frac{n_{1i}n_{2i}d_i (n_i - d_i)}{n_i ^2 (n_i - 1)}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(w_i =\)&lt;/span&gt; some weighting functing&lt;/p&gt;
+&lt;p&gt;Tests:&lt;br /&gt;
+Log-rank: &lt;span class=&#34;math inline&#34;&gt;\(w_i = 1\)&lt;/span&gt;&lt;br /&gt;
+Wilcoxon: &lt;span class=&#34;math inline&#34;&gt;\(w_i = n_i\)&lt;/span&gt;&lt;br /&gt;
+Tarone-ware: &lt;span class=&#34;math inline&#34;&gt;\(w_i = \sqrt{n_i}\)&lt;/span&gt;&lt;br /&gt;
+Peto-Peto: &lt;span class=&#34;math inline&#34;&gt;\(w_i = \prod_{i=1}^T (\frac{1-\hat{e}_i}{n_i + 1})\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Reference:&lt;br /&gt;
+Rich, J. T., Neely, J. G., Paniello, R. C., Voelker, C. C., Nussenbaum, B., &amp;amp; Wang, E. W. (2010). A practical guide to understanding Kaplan-Meier curves. Otolaryngology–head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery, 143(3), 331–336. &lt;a href=&#34;https://doi.org/10.1016/j.otohns.2010.05.007&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1016/j.otohns.2010.05.007&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Note9 Intro to Survival Analysis</title>
+      <link>/post/note9-intro-to-survival-analysis/</link>
+      <pubDate>Tue, 18 Feb 2020 17:33:44 -0600</pubDate>
+      <guid>/post/note9-intro-to-survival-analysis/</guid>
+      <description>
+
+
+&lt;div id=&#34;time-to-event-data&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:Red&#34;&gt;Time to Event Data&lt;/span&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: Failure, Lifetime Data, Time-event, Time-to-event-data&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Outcome&lt;/strong&gt;: Time until some events occures -&amp;gt; survival analysis.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In order to measure survival time, need a begining(t=0) and end(t = T).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;t=0&lt;/strong&gt; is when the clock starts.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;t=T&lt;/strong&gt; is when the event occurs(or censored) + clock stops.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Between this two times(t - T), the subject is said to be “at risk” for the event.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Survival time T is the difference between these two points.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Usually measured in days, months or years.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Question: Time is continuous, why not using linear regression?&lt;/p&gt;
+&lt;p&gt;Answer: Censoring! If no censoring, you can use it!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;censoring&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:Red&#34;&gt;Censoring&lt;/span&gt;&lt;/h2&gt;
+&lt;div id=&#34;right-censoredby-for-the-most-common&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Right Censored(by for the most common)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;known survival time is greater than some value: T &amp;gt; a&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;left-censoredrare&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Left Censored(rare)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;known survival time is less than some value: T &amp;lt; b&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;interval-censored&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Interval Censored&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;known survival time is within some interval: a &amp;lt; T &amp;lt; b&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;functions-of-survival-time&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:Red&#34;&gt;Functions of Survival Time&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;PDF: f(t)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;CDF: F(t) = P(T&amp;lt;t)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Survival Function S(t): S(t) = P(T&amp;gt;t) = 1 - F(t), this is the prob that people survived passed t.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Unconditional probability failure rate f(t): &lt;span class=&#34;math inline&#34;&gt;\(f(t) = \lim_{\Delta t\to\ 0}\frac{P(t \leq T \leq t + \Delta t)}{\Delta t}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But, subjects who have died before time t are no longer at risk during (t, t + t).&lt;br /&gt;
+So it make sense to think of a conditional failure rate.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Conditional failure rate: risk of an event occuring at time t, given the subject has survived to time t.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Hazard Function h(t)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(h(t) = \lim_{\Delta t\to\ 0}\frac{P(t \leq T \leq t + \Delta t | T \geq t)}{\Delta t}\)&lt;/span&gt;, &lt;span style=&#34;color:orange&#34;&gt;h(t) &amp;gt; 0, h(t) is not a probability. The hazard function, h(t), is the instantaneous rate at which events occur, given no previous events.&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cumulative Hazard Function H(t)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(H(t) = \int\limits_{0}^{t} h(u) du\)&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Relationships between S(t), H(t), h(t), f(t)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(h(t) = - \frac{\partial log(S(t))}{\partial t} = \frac{f(t)}{S(t)}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(H(t) = -log(S(t))\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(S(t) = exp(-H(t))\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(f(t) = - \frac{\partial S(t)}{\partial t}\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;comment-for-survival-distributions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span style=&#34;color:red&#34;&gt; Comment for Survival Distributions&lt;/span&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;46%&#34; /&gt;
+&lt;col width=&#34;17%&#34; /&gt;
+&lt;col width=&#34;17%&#34; /&gt;
+&lt;col width=&#34;17%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;Distribution&lt;/th&gt;
+&lt;th&gt;h(t)&lt;/th&gt;
+&lt;th&gt;S(t)&lt;/th&gt;
+&lt;th&gt;f(t)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Exponential&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\lambda\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(exp(-\lambda t)\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\lambda exp(-\lambda t)\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Weibull&lt;/td&gt;
+&lt;td&gt;$t^{-1} $&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(exp(-\lambda t^\alpha)\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\alpha \lambda t^{\alpha -1}exp(-\lambda t^\alpha)\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Gompertze&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\theta exp(\alpha t)\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(exp(\frac{\theta}{\alpha}(1-exp(\alpha t)))\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\theta exp(\alpha t)exp(\frac{\theta}{\alpha}(1-exp(\alpha t)))\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Others: Gamma, lognormal, log-logistic, inverse gaussian, Pareto&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
