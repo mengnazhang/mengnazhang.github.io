@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>glm | Mengna&#39;s Space</title>
-    <link>/tags/glm/</link>
-      <atom:link href="/tags/glm/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mengnazhang.github.io/tags/glm/</link>
+      <atom:link href="https://mengnazhang.github.io/tags/glm/index.xml" rel="self" type="application/rss+xml" />
     <description>glm</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2020 15:56:36 -0600</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>glm</title>
-      <link>/tags/glm/</link>
+      <link>https://mengnazhang.github.io/tags/glm/</link>
     </image>
     
     <item>
       <title>Note8 Glm Diagnostics</title>
-      <link>/post/note8-glm-diagnostics/</link>
+      <link>https://mengnazhang.github.io/post/note8-glm-diagnostics/</link>
       <pubDate>Thu, 27 Feb 2020 15:56:36 -0600</pubDate>
-      <guid>/post/note8-glm-diagnostics/</guid>
+      <guid>https://mengnazhang.github.io/post/note8-glm-diagnostics/</guid>
       <description>
 
 

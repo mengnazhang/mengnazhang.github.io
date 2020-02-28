@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>km-estimation | Mengna&#39;s Space</title>
-    <link>/tags/km-estimation/</link>
-      <atom:link href="/tags/km-estimation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mengnazhang.github.io/tags/km-estimation/</link>
+      <atom:link href="https://mengnazhang.github.io/tags/km-estimation/index.xml" rel="self" type="application/rss+xml" />
     <description>km-estimation</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Feb 2020 21:53:55 -0600</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>km-estimation</title>
-      <link>/tags/km-estimation/</link>
+      <link>https://mengnazhang.github.io/tags/km-estimation/</link>
     </image>
     
     <item>
       <title>Note10 Kaplan Meier Estimation</title>
-      <link>/post/note10-kaplan-meier-estimation/</link>
+      <link>https://mengnazhang.github.io/post/note10-kaplan-meier-estimation/</link>
       <pubDate>Tue, 18 Feb 2020 21:53:55 -0600</pubDate>
-      <guid>/post/note10-kaplan-meier-estimation/</guid>
+      <guid>https://mengnazhang.github.io/post/note10-kaplan-meier-estimation/</guid>
       <description>
 
 
